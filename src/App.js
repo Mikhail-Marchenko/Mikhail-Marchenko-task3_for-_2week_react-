@@ -59,6 +59,7 @@ export const Calculator = () => {
 			setOperator('');
 		}
 	};
+	//Рендер BTN NUMS
 	const renderNumLock = () => {
 		return NUMS.map((num) => (
 			<div
@@ -74,6 +75,8 @@ export const Calculator = () => {
 			</div>
 		));
 	};
+
+	//Рендер калькулятора
 
 	return (
 		<div className={styles.calculator}>
